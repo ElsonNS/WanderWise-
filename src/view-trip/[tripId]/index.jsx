@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { doc, getDoc } from 'firebase/firestore';
 import { toast } from 'sonner';
-import InfoSection from '../components/infoSection';
+import InfoSection from '../components/InfoSection';
 import Hotels from '../components/Hotels';
 import PlacesToVisit from '../components/PlacesToVisit';
 import Footer from '../components/Footer';
@@ -17,7 +17,7 @@ function Viewtrip() {
   },[tripId])
 
   /*
-    *Used to get rrip information from firebase
+    *Used to get trip information from firebase
   */
 
   const GetTripData=async() =>{

@@ -12,6 +12,7 @@
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-popover": "^1.1.2",
     "@radix-ui/react-slot": "^1.1.0",
     "@react-google-maps/api": "^2.20.3",
     "@react-oauth/google": "^0.12.1",
